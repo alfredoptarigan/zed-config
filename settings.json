@@ -1,0 +1,71 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "base_keymap": "default",
+  "theme": "Atelier Forest Light",
+  "ui_font_size": 16,
+  "vim_mode": false,
+  "buffer_font_size": 16,
+  "ui_font_family": "CommitMono-Arufuredo",
+  "buffer_font_family": "CommitMono-Arufuredo",
+  "buffer_line_height": "comfortable",
+  "confirm_quit": true,
+  "cursor_blink": true,
+  "format_on_save": "on",
+  "formatter": "language_server",
+  "assistant": {
+    "enabled": true,
+    "show_on_startup": true
+  },
+  "auto_update": true,
+  "copilot": {
+    "enabled": true
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "buffer_font_features": {
+    "liga": true,
+    "calt": true
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "hints": {
+          "assignVariableTypes": true,
+          "compositeLiteralFields": true,
+          "compositeLiteralTypes": true,
+          "constantValues": true,
+          "functionTypeParameters": true,
+          "parameterNames": true,
+          "rangeVariableTypes": true,
+          "variableValues": true,
+          "zeroValues": true,
+          "fieldNames": true,
+          "interfaceImplementation": true,
+          "methodExpression": true,
+          "methodExpressionNames": true,
+          "methodExpressionTypes": true,
+          "packageNames": true,
+          "packageTypes": true,
+          "packageValues": true
+        }
+      }
+    }
+  },
+  "hour_format": "hour24",
+  "always_treat_brackets_as_autoclosed": true,
+  "terminal": {
+    "font_family": "MesloLGS NF",
+    "font_size": 14,
+    "blinking": "on",
+    "font_features": {
+      "liga": true,
+      "calt": true
+    }
+  }
+}
